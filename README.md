@@ -114,7 +114,11 @@ Epochs: 10
 
 
 
-The model successfully classifies MRI images into four Alzheimer's stages.
+Validation Accuracy: 99.94%
+
+Validation Loss: 0.0011
+
+The model correctly classified 1599 out of 1600 validation MRI images.
 
 
 
@@ -129,6 +133,10 @@ Generated outputs:
 \* Confusion Matrix
 
 \* Classification Report
+
+## Confusion Matrix
+
+![Confusion Matrix](results/confusion_matrix.png)
 
 
 
